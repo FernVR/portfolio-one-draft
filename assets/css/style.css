@@ -130,6 +130,73 @@ main {
 }
 
 /* Footer */
+
+
 footer {
     background-color: blueviolet;
+   /* background-image: linear-gradient(rgba(0,0,0,0.55),  rgba(0,0,0,0.25)), url(back-image-8.avif); */
+    color: #fff;
+    background: url('../images/back-image-6.avif') center center / cover no-repeat fixed;
+    padding: 35px 0;
+    
+    
+    
+    
+    
+    
+
+    /*
+    background: url('back-image-8.avif') center center / cover no-repeat fixed; */
+}
+    
+
+
+footer h2 {
+    text-align: center;
+    font-weight: 100;
+}
+
+footer ul {
+    text-align: right;
+    width: 55%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    font-size: larger;
+
+}
+
+footer ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    
+    
+
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+footer ul li a::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+footer ul li a:hover::after{
+    width: 100%;
 }
