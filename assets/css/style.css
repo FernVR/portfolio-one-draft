@@ -1,3 +1,11 @@
-* {
-    color: blueviolet;
+header {
+    background-color: aqua;
+}
+
+main {
+    background-color: peru;
+}
+
+footer {
+    background-color: blueviolet;
 }
