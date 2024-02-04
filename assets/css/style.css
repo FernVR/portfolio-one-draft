@@ -71,7 +71,17 @@ nav ul li::after{
 nav ul li:hover::after{
     width: 100%;
 }
-
+.banner{
+  
+    background-image: linear-gradient(rgba(0,0,0,0.25),  rgba(0,0,0,0.25)), url(back-image-6.avif); 
+    /* background-image: url(background-image-3.jpg); */
+    background-color: lightblue; 
+    background-size: cover;
+    background-position: center; 
+    color: white;
+    padding: 75px 0;
+    text-align: center;
+}
 
 
 button {
@@ -88,6 +98,28 @@ button {
     overflow: hidden;
     font-size: larger;
 }
+
+button:hover span {
+    width: 100;
+}
+
+button:hover {
+    border: 2px solid #F9A8EC;
+}
+
+
+
+#header {
+    text-align: center;
+    padding: 80px 100px;
+    
+}
+header button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
 
 /* Main Content */
 main {
