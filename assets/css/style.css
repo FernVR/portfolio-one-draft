@@ -74,7 +74,7 @@ nav ul li:hover::after {
 
 .banner {
 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(back-image-6.avif);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(/assets/images/background-image-4.avif);
     /* background-image: url(background-image-3.jpg); */
     background-color: lightblue;
     background-size: cover;
