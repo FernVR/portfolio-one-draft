@@ -73,6 +73,22 @@ nav ul li:hover::after{
 }
 
 
+
+button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    border: 2px solid #fff;
+    background: transparent; 
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    font-size: larger;
+}
+
 /* Main Content */
 main {
     background-color: aqua;
