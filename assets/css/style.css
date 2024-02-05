@@ -1,297 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;500;700;900&display=swap');
 
-
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
 
-/* General styles */
-
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    /* Generic project styles */
-    color: #3a3a3a;
-
-}
-
-
 /* Header */
+
 header {
     background-color: peru;
 }
 
-h1 {
-    color: #fff;
-    font-size: 46px;
-}
 
 .logo {
-    width: 120px;
-    cursor: pointer;
+    font-size: 250%;
+    padding: 0 1rem;
+    
 }
+
+.active {
+    border-bottom: 1px solid #000;
+}
+
+.menu {
+    font-size: 110%;
+    letter-spacing: 2px;
+    list-style-type: none;
+}
+
+.menu li {
+    padding-bottom: 3px;
+    text-transform: uppercase;
+    
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Navbar styles with dropdown toggle */
 
 nav {
-    width: 85%;
-    margin: auto;
-    padding: 35px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-nav ul li {
-    list-style: none;
-    display: inline-block;
-    margin: 0 20px;
-    position: relative;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    text-transform: uppercase;
-}
-
-nav ul li::after {
-    content: '';
-    height: 3px;
-    width: 0;
-    background: #fff;
     position: absolute;
-    left: 0;
-    bottom: -10px;
-    transition: 0.5s;
-}
-
-nav ul li:hover::after {
+    background-color: peru;
     width: 100%;
-}
-
-.banner {
-
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(/assets/images/background-image-4.avif);
-    /* background-image: url(background-image-3.jpg); */
-    background-color: lightblue;
-    background-size: cover;
-    background-position: center;
-    color: white;
-    padding: 75px 0;
-    text-align: center;
-}
-
-
-button {
-    width: 200px;
-    padding: 15px 0;
-    text-align: center;
-    margin: 20px 10px;
-    border-radius: 25px;
-    border: 2px solid #fff;
-    background: transparent;
-    color: #fff;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-    font-size: larger;
-}
-
-button:hover span {
-    width: 100;
-}
-
-button:hover {
-    border: 2px solid #F9A8EC;
-}
-
-
-
-#header {
-    text-align: center;
-    padding: 80px 100px;
-
-}
-
-header button a {
-    color: #fff;
-    text-decoration: none;
+    left: 0;
+    padding: 0 1rem;
+    display: none;
 }
 
 
 
 /* Main Content */
+
 main {
     background-color: aqua;
-
     /* make main element take up surplus space to push footer down */
-    flex: 1 0 auto;
-}
-
-form {
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 200px;
-    page-break-inside: 50px 25px;
-    background-color: black;
-    color: #fff;
-
-}
-
-
-
-
-#quote {
-
-
-    text-align: center;
-    font-size: 75px;
-    background-color: #D4BFF7;
-    background: url('back-image-7.avif') center center / cover no-repeat fixed;
-    padding: 70px 0;
-    color: #fff;
-
-
-}
-
-#creator-letter-section {
-    background-color: black;
+   
+    padding-top: 120px;
 }
 
 img {
-
-    height: 500px;
-    width: 350px;
-    margin: 100px 50px;
-    position: relative;
+    height: 110px;
+    width: fit-content;
 }
-
-#creator-letter-section h2 {
-    color: #fff;
-}
-
-#creator-letter div {
-    display: inline-block;
-
-}
-
-
-
-
-
-#newsletter-form {
-    text-align: center;
-}
-
-#newsletter-form h3 {
-
-    text-transform: uppercase;
-    padding: 100px 50px;
-    color: #fff;
-    background-color: black;
-    font-weight: 200;
-}
-
-
-
-
-input[type=submit] {
-
-    width: 130px;
-    height: 30px;
-}
-
-input[type=text] {
-
-    height: 20px;
-}
-
-input[type=email] {
-
-    height: 20px;
-}
-
-input[type=number] {
-    height: 20px;
-}
-
-label {
-    font-size: 20px;
-}
-
-
 
 /* Footer */
 
-
 footer {
-    background-color: blueviolet;
-    /* background-image: linear-gradient(rgba(0,0,0,0.55),  rgba(0,0,0,0.25)), url(back-image-8.avif); */
-    color: #fff;
-    background: url('../images/back-image-6.avif') center center / cover no-repeat fixed;
-    padding: 35px 0;
-
-
-
-
-
-
-
-    /*
-    background: url('back-image-8.avif') center center / cover no-repeat fixed; */
+    background-color: yellowgreen;
 }
 
-
-
-footer h2 {
-    text-align: center;
-    font-weight: 100;
-}
-
-footer ul {
-    text-align: right;
-    width: 55%;
-    margin: auto;
-    padding: 35px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: larger;
-
-}
-
-footer ul li {
-    list-style: none;
-    display: inline-block;
-    margin: 0 20px;
-    position: relative;
-
-
-
-}
-
-footer ul li a {
-    color: #fff;
-    text-decoration: none;
-    color: #fff;
-    text-transform: uppercase;
-
-}
-
-footer ul li a::after {
-    content: '';
-    height: 3px;
-    width: 0;
-    background: #fff;
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    transition: 0.5s;
-}
-
-footer ul li a:hover::after {
-    width: 100%;
-}
