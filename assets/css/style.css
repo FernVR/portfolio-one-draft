@@ -4,7 +4,8 @@
     padding: 0;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-}
+   
+} 
 
 /* Header */
 
@@ -90,6 +91,12 @@ main {
 img {
     height: 110px;
     width: fit-content;
+}
+
+#creator-section > div {
+    display: inline-block;
+    width: 30%;
+    padding-right: 10px;
 }
 
 /* Footer */
