@@ -10,7 +10,7 @@
 /* Header */
 
 header {
-    background-color: #6D3B00;
+    background-color: #ECCA9E;
     display: flex;
     align-items: baseline;
 }
@@ -52,7 +52,7 @@ header a {
 
 nav {
 
-    background-color: #6D3B00;
+    background-color: #ECCA9E;
     width: 100%;
     left: 0;
     justify-content: space-between;
@@ -60,6 +60,10 @@ nav {
     top: 100%;
     padding-left: 1px;
     font-size: smaller;
+}
+
+nav > ul {
+    text-align: center;
 }
 
 /* Nav Toggle */
@@ -82,8 +86,8 @@ nav {
 /* Main Content */
 
 main {
-    background-color: #CDA877;
-    color: #ffffff;
+    background-color: #FFECE3;
+    color: #B17560;
     padding-top: 20px;
     
 }
@@ -93,6 +97,7 @@ main {
 .banner {
     padding: 30px 10px;
     text-align: center;
+    color: #B17560;
 
 }
 
