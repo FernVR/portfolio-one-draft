@@ -4,15 +4,15 @@
     padding: 0;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-   
-} 
+
+}
 
 /* Header */
 
 header {
     background-color: peru;
     display: flex;
-    
+
     align-items: baseline;
 }
 
@@ -25,7 +25,7 @@ header a {
 .logo {
     font-size: 250%;
     padding: 0 1rem;
-    
+
 }
 
 .active {
@@ -41,7 +41,7 @@ header a {
 .menu li {
     padding-bottom: 10px;
     text-transform: uppercase;
-    
+
 }
 
 .menu a {
@@ -52,7 +52,7 @@ header a {
 /* Navbar styles with dropdown toggle */
 
 nav {
-    
+
     background-color: peru;
     width: 100%;
     left: 0;
@@ -75,7 +75,7 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
-    
+
 }
 
 
@@ -84,18 +84,25 @@ nav {
 main {
     background-color: aqua;
     /* make main element take up surplus space to push footer down */
-   
+
     padding-top: 20px;
 }
 
 .img-creator {
-   height: auto;
-   width: 85%;
-   max-width: 500px;
-   padding: 15px;
-   
+    height: auto;
+    width: 85%;
+    max-width: 500px;
+    padding: 15px;
+
 }
 
+.creator-letter {
+    padding: 15px;
+    height: auto;
+    width: 85%;
+    max-width: 500px;
+
+}
 
 
 
@@ -104,4 +111,3 @@ main {
 footer {
     background-color: yellowgreen;
 }
-
