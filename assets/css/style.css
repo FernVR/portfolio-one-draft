@@ -10,15 +10,14 @@
 /* Header */
 
 header {
-    background-color: peru;
+    background-color: #6D3B00;
     display: flex;
-
     align-items: baseline;
 }
 
 header a {
     text-decoration: none;
-    color: #000;
+    color: #ffffff;
 }
 
 
@@ -29,7 +28,7 @@ header a {
 }
 
 .active {
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #ffffff;
 }
 
 .menu {
@@ -46,14 +45,14 @@ header a {
 
 .menu a {
     text-decoration: none;
-    color: #000;
+    color: #ffffff;
 }
 
 /* Navbar styles with dropdown toggle */
 
 nav {
 
-    background-color: peru;
+    background-color: #6D3B00;
     width: 100%;
     left: 0;
     justify-content: space-between;
@@ -75,6 +74,7 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
+    color: #ffffff;
 
 }
 
@@ -82,10 +82,30 @@ nav {
 /* Main Content */
 
 main {
-    background-color: aqua;
-    /* make main element take up surplus space to push footer down */
-
+    background-color: #CDA877;
+    color: #ffffff;
     padding-top: 20px;
+    
+}
+
+/* Banner */
+
+.banner {
+    padding: 30px 10px;
+    text-align: center;
+
+}
+
+.banner > h2 {
+    font-weight: 300;
+}
+
+
+/* Creator Letter Section */
+
+
+#creator-section > div {
+    text-align: center;
 }
 
 .img-creator {
@@ -111,3 +131,14 @@ main {
 footer {
     background-color: yellowgreen;
 }
+
+
+/* this is for the media query to line img and creator letter side by side 
+
+#creator-section {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+*/
