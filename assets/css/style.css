@@ -133,12 +133,22 @@ footer {
 }
 
 
+
+/* Media query: tablets and larger (768px and up) */
+
+@media screen and (min-width: 768px) {
+
+    #creator-section {
+        display: flex;
+        flex-direction: row;
+    }
+
+    
+}
+
+
 /* this is for the media query to line img and creator letter side by side 
 
-#creator-section {
-    display: flex;
-    flex-direction: row;
-    padding: 20px;
-}
+
 
 */
